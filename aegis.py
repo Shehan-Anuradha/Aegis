@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-AES-CTR + HMAC full-file encryption script
-- Streams files in chunks to control memory usage
-- Per-file AES-256 key + HMAC key encrypted under your Fernet master key
-- Shows progress/ETA and current+peak memory
-- Atomic file writes and mapfile that maps encrypted file names -> original paths
+Aegis – Personal File Encryption Script
+---------------------------------------
+I built this tool to practice applied cryptography and handle secure file storage for my own use.
+It uses AES-256 (CTR mode) with HMAC-SHA256 for integrity, and supports large files
+with streaming encryption, progress tracking, and memory monitoring.
 """
 
 import os
@@ -51,10 +51,10 @@ def print_ascii_banner(indent: int = 10, delay: float = 0.1):
         time.sleep(delay)  # 0.05 faster, 0.2 slower
 
 print_ascii_banner(indent=6, delay=0.08)
-
+VERSION = "1.0.0"
 
 print("                                          Copyright of Shehan Anuradha, 2025")
-print("                                                    A File encryption script")
+print("                                       Aegis File Encryption Tool v{VERSION}")
 print("\n ******************************************************************************")
 print("\n")
 
@@ -493,3 +493,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
