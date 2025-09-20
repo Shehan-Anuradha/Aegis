@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/Aegis.png" alt="Aegis Banner" width="100%"/>
+  <img src="assets/Aegisbanner.png" alt="Aegis Banner" width="100%"/>
 </p>
 
 # 🛡️ Aegis – File Encryption Tool
