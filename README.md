@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/Aegis.png" alt="Aegis Banner" width="100%"/>
+</p>
+
 # 🛡️ Aegis – File Encryption Tool
 
 Aegis is a Python-based file encryption tool that uses **AES-CTR (AES-256)** for encryption and **HMAC-SHA256** for integrity verification.
