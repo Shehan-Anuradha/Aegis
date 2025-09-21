@@ -5,7 +5,7 @@
 # 🛡️ Aegis  
 **AES-CTR + HMAC based file encryption tool with progress bar and memory-efficient streaming.**
 
-![Aegis Banner](./assets/banner.png)
+![Aegis Banner](./assets/Aegisbanner.png)
 
 ---
 
@@ -36,9 +36,10 @@ Unlike heavy disk encryption tools, Aegis is:
 ## 📦 Installation  
 
 1. Clone the repository:  
-   ```bash
+```bash
    git clone https://github.com/Shehan-Anuradha/Aegis.git
    cd Aegis
+```
 2. Install dependencies:
 ```bash
     pip install -r requirements.txt
