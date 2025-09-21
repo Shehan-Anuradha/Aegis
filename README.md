@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="assets/Aegisbanner.png" alt="Aegis Banner" width="100%"/>
-</p>
+
 
 # 🛡️ Aegis  
 **AES-CTR + HMAC based file encryption tool with progress bar and memory-efficient streaming.**
