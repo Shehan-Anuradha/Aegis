@@ -2,24 +2,35 @@
   <img src="assets/Aegisbanner.png" alt="Aegis Banner" width="100%"/>
 </p>
 
-# 🛡️ Aegis – File Encryption Tool
+# 🛡️ Aegis  
+**AES-CTR + HMAC based file encryption tool with progress bar and memory-efficient streaming.**
 
-Aegis is a Python-based file encryption tool that uses **AES-CTR (AES-256)** for encryption and **HMAC-SHA256** for integrity verification.
-It’s designed for personal use, with features like streaming large files in chunks, memory usage tracking, and atomic file operations.
-
----
-
-## ✨ Features
-
-* 🔑 **AES-256 CTR mode** for strong file encryption
-* 🛡️ **HMAC-SHA256** for integrity verification
-* 📂 **Streaming encryption** – handles very large files without loading them fully into memory
-* 📊 **Progress bar with ETA & memory tracking**
-* 🗂️ **Map file** to restore original file names after encryption
-* 🧹 **Atomic writes** – ensures safe encryption even if the process is interrupted
+![Aegis Banner](./assets/banner.png)
 
 ---
 
+## 🔒 About  
+Aegis is a Python-based file encryption and decryption tool built for **security + usability**.  
+It uses **AES-256 in CTR mode** for fast and strong encryption, combined with **HMAC-SHA256** for integrity checks.  
+
+Unlike heavy disk encryption tools, Aegis is:  
+- **Lightweight** – works on folders/files directly  
+- **Memory-friendly** – streams large files in chunks (you control RAM usage)  
+- **Secure** – random keys per file, wrapped with your master key  
+- **User-friendly** – progress bar, ETA, and memory usage display  
+
+---
+
+## ✨ Features  
+✔ AES-CTR 256-bit encryption + HMAC-SHA256 integrity  
+✔ Per-file random keys, wrapped with master key  
+✔ Streaming in chunks (set your own memory cap, e.g., 2GB)  
+✔ Progress bar with ETA for large batches  
+✔ Memory usage stats during encryption/decryption  
+✔ Automatic restore with or without file mapping  
+✔ ASCII-art banner for that “movie hacker” vibe 😎  
+
+---
 ## 🚀 Getting Started
 
 ### Prerequisites
