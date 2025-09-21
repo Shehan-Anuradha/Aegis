@@ -27,6 +27,7 @@ Unlike heavy disk encryption tools, Aegis is:
 ✔ Memory usage stats during encryption/decryption  
 ✔ Automatic restore with or without file mapping  
 ✔ ASCII-art banner for that “movie hacker” vibe 😎  
+✔ Cross-platform: Aegis works on both Windows and Linux (tested on Python 3.10+).
 
 ---
 ## 🚀 Getting Started
