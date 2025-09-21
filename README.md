@@ -33,23 +33,37 @@ Unlike heavy disk encryption tools, Aegis is:
 ---
 ## 🚀 Getting Started
 
-### Prerequisites
+## 📦 Installation  
 
-* Python 3.8+
-* Install dependencies:
-
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/Shehan-Anuradha/Aegis.git
+   cd Aegis
+2. Install dependencies:
 ```bash
-pip install cryptography psutil
+    pip install -r requirements.txt
 ```
 
----
+🔑 Setup Secret Key & Password
+
+Aegis uses a master secret key + encrypted password for unlocking.
+Generate them using the provided keygen.py:
+```bash
+    python keygen.py
+```
+Example output:
+```bash
+    SECRET_KEY = b'H-uSawtdkKGePeh1edKjX5qdhIAeQshxX8rDLP9TOoI='
+    ENCRYPTED_PASSWORD = b'gAAAAABopDHl9iqS37Ik8fwFFQOyy6h1JjKcNugdDmS6eVe0Lwuz...'
+```
+Copy these values into the main script (aegis.py).
 
 ### Usage
 
 Run the script:
 
 ```bash
-python3 aegis.py
+    python3 aegis.py
 ```
 
 Menu options:
@@ -105,6 +119,10 @@ Building this project helped me explore:
 * Secure file operations using atomic writes
 
 ---
+🌟 Support & Feedback
+
+If you like Aegis, consider starring the repo ⭐ and sharing feedback!
+Contributions and ideas are welcome — open an issue or pull request.
 
 ## 📜 License
 
